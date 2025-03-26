@@ -1,3 +1,6 @@
+
+// цілий Визначити найменший елемент матриці
+
 #include <iostream>
 using namespace std;
 
@@ -24,7 +27,7 @@ int main(){
       cin>>a[i][j];}
 
       cout << "Matrix:\n";
-      
+
     for (i = 0; i < 6; i++) {
         for (j = 0; j < 4; j++) {
             cout << a[i][j] << "\t";

@@ -1,9 +1,12 @@
+
+// 3´4 дійсний Обчислити вектор як суми елементів стовпців матриці, абсолютне значення яких не перевищує 10 
+
 #include <iostream>
 #include <cmath>
 using namespace std;
 
 void function(double matrix[3][4], double columnSums[4]) {
-    
+
     for (int j = 0; j < 4; j++) {
         double sum = 0;
         for (int i = 0; i < 3; i++) {
